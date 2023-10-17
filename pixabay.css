@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#head{
+    height: 500px;
+   
+    background-size: cover;
+    background-image: linear-gradient(rgba(25, 27, 38, .32),rgba(25, 27, 38, .72)),
+    url("https://cdn.pixabay.com/index/2023/09/15/04-01-39-357_1920x550.jpg");
+}
+svg{
+    height: 30px;
+    color: white;
+    margin: 20px;
+}
+#head h1{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 800;
+    
+}
+#head p{
+    margin-left: 320px;
+    color: white;
+}
+#head h2 input{
+    height: 30px;
+    
+   width: 600px;
+   border: none;
+   margin-top: 8px;
+   margin-right: 20px;
+   
+   
+    
+}
+#head h2 input[type='text']::placeholder{
+    
+    font-size: 15px;
+}
+#head #search{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#head #search h2{
+    height: 40px;
+    width: 800px;
+    border: 1px solid white;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-weight: 100;
+    text-align: center;
+   padding: 10px;
+    
+}
+#head h2{
+    justify-content: center;
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+    margin-right:20px;
+}
+
+span ul {
+    list-style: none;
+    color: white;
+    display: flex;
+
+
+}
+span ul li{
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+span ul li{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+span{
+    display: flex;
+}
+span ul li:first-child{
+    margin-left: 900px;
+    border: none;
+}
+span ul li:nth-child(2){
+    border: none;
+}
+span ul li:nth-child(3){
+    background-color: #FFFFFF1A;
+    color: #fff;
+    border: 1px solid hsla(0,0%,100%,.1);
+}
+span ul li:last-child{
+    background-color: #00AB60;
+    border: 1px solid #00AB60;
+}
+
+/* -----------------------------------------------------pics start--------------------------------------- */
+
+#navbar{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+#navbar ul li{
+    list-style: none;
+    margin-left: 30px;
+    color: gray;
+
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li:first-child{
+    color: black;
+}
